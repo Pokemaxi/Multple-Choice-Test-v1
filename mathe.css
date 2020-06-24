@@ -1,0 +1,210 @@
+
+a {text-decoration: none;}
+li{list-style-type: none;}
+#logo, li, img, .button {transition: all 300ms; -webkit-transition: all 300ms ; -moz-transition: all 300ms ; -o-transition: all 300ms ;}
+
+body {
+	background-image: url(PNG/hintergrund1.jpg);
+	background-size: 30px;
+	/* background-color: lightgrey; */
+}
+header {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #900F00;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}
+#logo {
+
+	width: 200px;
+	float: left;
+	margin: 20px 0 0 50px
+}
+
+#logo:hover {
+	opacity: 0.5
+}
+
+#logo img{
+	margin-top: -26px;
+	width: 180%;
+}
+
+header nav {
+	float: right;
+	margin: 20px 50px 0 0;
+}
+header nav ul li {
+	float: left;
+	margin-right: 25px;
+}
+header nav ul li a {
+	font-size: 23px;
+	color: white;
+}
+header nav ul li:hover {
+	padding-top: 5px;
+}
+/*-------Header end-----------------------------------*/
+.center {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.haupt {
+  margin: 100px -8px 0 -8px;
+  height: 150px;
+	width: 900px;
+  border-style: solid;
+  border-color: black;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.hauptu {
+  margin: 20px 0 0 30px;
+}
+.hauptp {
+  margin: 0 0 10px 30px;
+}
+#start {
+	width: 880px;
+	margin: 5px 10px 0 10px;
+}
+/*-------Überschrift-----------------------------------*/
+
+.start {
+  margin: 0 25% 0 25%;
+  min-width: 100px;
+  height: 40px;
+  border-style: solid;
+  border-color: black;
+}
+/*-------Hide-----------------------------------*/
+#hide {
+	visibility: hidden;
+}
+/*-------Fragen-----------------------------------*/
+
+.frage {
+  /*margin-left: 25%;*/
+  margin-bottom: 10px;
+	background-color: white;
+  border-style: solid;
+  border-color: black;
+  width: 900px;
+  height: 180px;
+}
+.frag {
+  margin-left: 10px;
+}
+
+.flex {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+/*---------Button----------*/
+
+.btn {
+	background: #900F00;
+	color: white;
+	height: 50px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+	margin: 0px 8px 10px 8px;
+}
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+	grid-template-columns: 450px 450px;
+}
+
+#end {
+	width: 880px;
+	margin: 10px 10px 0 10px;
+}
+.ende {
+	width: 900px;
+	height: 120px;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+}
+.punkt {
+		font-size: 16pt;
+		float: left;
+		margin-left: 13px;
+		margin-top: 16px;
+}
+.zeit {
+	margin-left: 650px;
+	position: absolute;
+}
+
+/*----Sidebar------------------------*/
+
+.stats {
+	font-weight: bold;
+	position: fixed;
+	left: 10px;
+	top: 270px;
+	background-color: white;
+	border-style: solid;
+	width: 200px;
+	height: 410px;
+	visibility: visible;
+}
+#side {
+	width: 180px;
+}
+.statsu {
+	margin-left: 26px;
+	margin-top: 16px;
+	font-size: 24pt;
+}
+
+.statsp {
+	margin-left: 10px;
+	margin-top: 3px;
+	font-size: 15pt;
+	text-decoration: underline;
+}
+.stat {
+	margin-left: 45px;
+	margin-top: -3px;
+	font-size: 16pt;
+}
+.schliesen {
+	position: fixed;
+	top: 275px;
+	left: 188px;
+	width: 24px;
+	height: 24px;
+	background: #900F00;
+	color: black;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+}
+.offnen {
+	position: fixed;
+	top: 275px;
+	left: 14px;
+	width: 24px;
+	height: 24px;
+	background: #900F00;
+	color: black;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+	visibility: hidden;
+}
